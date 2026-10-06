@@ -7,7 +7,7 @@ import Users from "./pages/Users.jsx";
 
 export default function App() {
   return (
-    <BrowserRouter basename="/Community-Library-System">
+    <BrowserRouter basename="/Community-Library-Management-System">
       <Layout>
         <Routes>
           <Route path="/" element={<Dashboard />} />
